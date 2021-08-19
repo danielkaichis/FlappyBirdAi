@@ -1,3 +1,3 @@
 # FlappyBirdAi
 
-This project uses the NEAT evolutionary algorithm to play flappy bird.
+Am implementation of the NEAT evolutionary algorithm with python and pygame. The computer is given certain inputs and is rewarded for its success in the game of flappy bird. The best birds from each species are kept while new birds with mutations of those best birds are generated to replace the worse birds of the previous species. The weight each input is given in the birds descision making is modified to have more similar traits to the best birds. Each species of birds is better at the game than the last and the NEAT evolutionary algorithm will continue to run until a bird becomes so good at the game that it will never lose. 
